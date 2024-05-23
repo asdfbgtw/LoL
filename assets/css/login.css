@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('../img/fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#login{
+    width: 90%;
+    height: 500px;
+    background: #fff; /* cor de fundo branco */
+}
+#login h2{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.caixa{
+    width: 80%;
+    height: 45px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 2px;
+    outline: none;
+    background: #ededed;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    color:#333;
+    text-indent: 5px;
+}
+.caixa::placeholder{
+    font-size: 0.7em;
+}
+.caixa:hover{
+    border: 2px solid #cbcbcb;
+}
+#bt-sociais{
+    width: 80%;
+    height: 45px;
+    margin-left: 10%;
+    /* background: #e1f816; */
+    margin-top: 10px;
+}
+.social{
+    width: 20%;
+    height: 45px;
+    border-radius: 10px;
+    background: #30d8ee;
+    float: left;
+}
+input[type=checkbox]{
+    accent-color: #CA4F52;
+    float: left;
+    width: 19px;
+    height: 19px;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+#login label{
+    font-family: sans-serif;
+    font-size: 0.8em;
+    float: left;
+    margin-top: 4%;
+    margin-left: 1%;
+    font-weight: bold;
+    color: #333;
+}
+#face{
+    background: #000 url('../img/facebook.png') no-repeat center center;
+    background-size: 50%;
+}
+#google{
+    background: #000 url('../img/google.png') no-repeat center center;
+    background-size: 50%;
+    margin-left: 6.6%;margin-left: 6.6%;
+    margin-right: 6.6%;
+}
+#apple{
+    background: #000 url('../img/apple.png') no-repeat center center;
+    background-size: 50%;
+}
+#xbox{
+    background: #000 url('../img/xbox.png') no-repeat center center;
+    background-size: 50%;
+    margin-left: 6.6%;
+}
+#logo-header{
+    width: 150px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+#logo-header img{
+    width: 100%;
+    height: auto;
+}
+#btn{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+#login button{
+    width: 90px;
+    height: 90px;
+    background: #10181a url('../img/arrow.png') no-repeat center center;
+    background-size: 40%;
+    border: 0;
+    border-radius: 30px;
+}
+#login button:hover{
+    background: #304e52;
+    background: #304e52 url('../img/arrow.png') no-repeat center center;
+    background-size: 40%;
+}
+
+
+
